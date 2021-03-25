@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import {connect, useDispatch, useSelector} from 'react-redux';
 import {addItem, deleteItem} from './redux/actions';
 
-import {MainContainer, WishItemsContainer, Title, WishItemContainer, Input, AddButton, SubmitButton} from './styles/WishListContainerStyle'
+import {MainContainer, WishItemsContainer, Title, WishItemContainer, Input, AddButton, SubmitButton, Application} from './styles/WishListContainerStyle'
 
 const App = () => {
   return (
-    <div className="App">
+    <Application>
       <WishListContainer />
-    </div>
+    </Application>
   )
 }
 

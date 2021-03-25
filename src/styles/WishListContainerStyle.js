@@ -5,8 +5,6 @@ export const MainContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0px 0px 5px 5px #6a737d;
   height: 540px;
-  margin: 30px auto 0 auto;
-  padding: 20px 10px 40px 10px;
   text-align: center;
   width: 400px;
 `
@@ -75,5 +73,12 @@ export const SubmitButton = styled.button`
     box-shadow: none;
   }
 `
-
+export const Application = styled.div`
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+`
 
